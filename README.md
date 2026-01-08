@@ -81,13 +81,13 @@ dotnet add PROJECT package Arch --version 2.1.0-beta
 Then import Arch next, so that Arch and its methods are available to you...
 
 ```csharp
-using Arch;
+using Arch.Core;
 ```
 
 And your journey can begin! Now let's take a quick look at a small example before you can dive in completely!
 
 ```csharp
-using Arch;
+using Arch.Core;
 
 // Components
 public record struct Position(float X, float Y);
