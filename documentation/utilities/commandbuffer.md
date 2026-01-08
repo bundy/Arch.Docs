@@ -18,7 +18,7 @@ commandBuffer.Set(dwarf, new Position(10,10);
 
 // Buffering a whole entity
 <a data-footnote-ref href="#user-content-fn-2">var nonExistingDwarf = commandBuffer.Create(new Signature(typeof(Dwarf), typeof(Position), typeof(Velocity));</a>
-<a data-footnote-ref href="#user-content-fn-3">commandBuffer.PlayBack(world, disposal = true);</a>
+<a data-footnote-ref href="#user-content-fn-3">commandBuffer.Playback(world, dispose: true);</a>
 </code></pre>
 
 {% hint style="info" %}
